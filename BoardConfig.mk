@@ -31,6 +31,12 @@ BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt
 TARGET_PREBUILT_DTB := $(BOARD_PREBUILT_DTBIMAGE_DIR)/denniz.dtb
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
+# Modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := \
+    kheaders.ko \
+    lcd.ko \
+    tcp_westwood.ko
+
 # Init
 TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_denniz
 TARGET_RECOVERY_DEVICE_MODULES ?= init_denniz
