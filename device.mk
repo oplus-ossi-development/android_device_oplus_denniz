@@ -16,8 +16,8 @@
 
 DEVICE_PATH := device/oplus/denniz
 
-# Inherit from motorola sm6375-common
-$(call inherit-product, device/oplus/mt6893-common/common.mk)
+# Inherit from ossi device
+$(call inherit-product, device/oplus/mt6893-common/ossi.mk)
 
 # Alert slider
 PRODUCT_PACKAGES += \
