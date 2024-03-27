@@ -23,12 +23,6 @@ $(call inherit-product, device/oplus/mt6893-common/ossi.mk)
 PRODUCT_PACKAGES += \
     alert-slider_daemon
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.denniz
-
-TARGET_EXCLUDE_VIBRATOR := true
-
 # Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderOverlayDenniz
