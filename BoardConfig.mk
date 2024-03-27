@@ -36,5 +36,8 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
 TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_denniz
 TARGET_RECOVERY_DEVICE_MODULES ?= init_denniz
 
+# Vibrator
+TARGET_VIBRATOR_ALT_SEQ_TYPE := true
+
 # Call proprietary blob setup
 include vendor/oplus/denniz/BoardConfigVendor.mk
