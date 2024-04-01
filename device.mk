@@ -23,6 +23,10 @@ $(call inherit-product, device/oplus/mt6893-common/ossi.mk)
 PRODUCT_PACKAGES += \
     alert-slider_daemon
 
+# Display saturation adjust
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.sf.color_saturation=0.95
+
 # Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderOverlayDenniz
