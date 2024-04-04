@@ -2,7 +2,7 @@
   {
     "repository": "oplus-ossi-development/proprietary_vendor_oplus_denniz",
     "target_path": "vendor/oplus/denniz",
-    "revision": "lineage-21",
+    "branch": "lineage-21",
     "remote": "github"
   }
 ]
