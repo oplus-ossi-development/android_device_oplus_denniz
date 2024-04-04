@@ -1,11 +1,5 @@
 [
   {
-    "repository": "oplus-ossi-development/android_device_oplus_mt6893-common",
-    "target_path": "device/oplus/mt6893-common",
-    "revision": "lineage-21",
-    "remote": "github"
-  },
-  {
     "repository": "oplus-ossi-development/proprietary_vendor_oplus_denniz",
     "target_path": "vendor/oplus/denniz",
     "revision": "lineage-21",
