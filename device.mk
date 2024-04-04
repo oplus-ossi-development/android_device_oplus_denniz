@@ -29,6 +29,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworkResOverlayDenniz \
     SettingsProviderOverlayDenniz
 
 # Inherit from vendor blobs

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The default peak refresh rate for a given device. -->
+    <integer name="config_defaultPeakRefreshRate">90</integer>
+</resources>
