@@ -32,5 +32,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayDenniz \
     SettingsProviderOverlayDenniz
 
+# Oplus camera
+$(call inherit-product, device/oplus/camera/camera.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/denniz/denniz-vendor.mk)
