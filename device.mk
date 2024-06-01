@@ -30,7 +30,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDenniz \
-    SettingsProviderOverlayDenniz
+    SettingsProviderOverlayDenniz \
+    WifiOverlayDenniz
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/denniz/denniz-vendor.mk)

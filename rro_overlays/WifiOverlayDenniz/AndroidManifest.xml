@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.denniz.wifioverlay">
+
+    <application android:hasCode="false" />
+    <overlay
+        android:targetPackage="com.android.wifi.resources"
+        android:targetName="WifiCustomization"
+        android:isStatic="true"
+        android:priority="0" />
+</manifest>
